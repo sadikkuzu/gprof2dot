@@ -21,6 +21,7 @@
 __author__ = "Jose Fonseca et al"
 
 
+import base64
 import sys
 import math
 import os.path
@@ -1039,7 +1040,8 @@ class DotWriter:
         fontcolor = theme.graph_fontcolor()
         nodestyle = theme.node_style()
 
-        self.attr('graph', fontname=fontname, ranksep=0.25, nodesep=0.125)
+        b64style = base64.b64encode('text { font-size: 10px; }')
+        self.attr('graph', fontname=fontname, ranksep=0.25, nodesep=0.125, stylesheet='data:text/css;charset=utf-8;base64,{0}'.format(b64style))
         self.attr('node', fontname=fontname, shape="box", style=nodestyle, fontcolor=fontcolor, width=0, height=0)
         self.attr('edge', fontname=fontname)
 

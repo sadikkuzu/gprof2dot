@@ -4,7 +4,9 @@
 *.orig
 *.png
 *.pyc
+build
 dist
+venv
 !sample.png
 !tests/pstats/cProfile.orig.dot
 

@@ -39,13 +39,13 @@ This is the result from the [example data](http://linuxgazette.net/100/misc/vina
 
 # Download
 
-  * [PyPI](https://pypi.python.org/pypi/gprof2dot/)
+  * [PyPI](https://pypi.org/project/yelp-gprof2dot/)
 
-        pip install gprof2dot
+        pip install yelp-gprof2dot
 
-  * [Standalone script](https://raw.githubusercontent.com/jrfonseca/gprof2dot/master/gprof2dot.py)
+  * [Standalone script](https://raw.githubusercontent.com/Yelp/gprof2dot/master/gprof2dot.py)
 
-  * [Git repository](https://github.com/jrfonseca/gprof2dot)
+  * [Git repository](https://github.com/Yelp/gprof2dot/)
 
 
 # Documentation
